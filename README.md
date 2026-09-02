@@ -1,18 +1,15 @@
 # Supply Chain & Order Management
 ## The End-to-End Quote-to-Cash Process and Technology Stack
 
-
-
-
----
-
 <img width="768" height="768" alt="image" src="https://github.com/user-attachments/assets/ad84c0fd-9db9-44a1-8479-9bcb6262d473" />
 
 
 ---
-# Opportunity/Prospect Flow ( PHASE 1 - PHASE 4 )
 
-<img width="3764" height="5312" alt="carbon" src="https://github.com/user-attachments/assets/fe69ca7e-4a3e-417b-92c3-4924a3b76a51" />
+# Opportunity/Prospect Flow ( PHASE 1 - PHASE 4 )
+  <img width="745" height="1072" alt="carbon (1)" src="https://github.com/user-attachments/assets/a440cca9-7356-46b5-9e84-e7c40794b1ae" />
+
+
 
 ## PHASE 1
 ### **Quotation Generated** -> *Opportunity - A potential customer* ->  Logged in CRM (Salesforce) tool
@@ -38,31 +35,14 @@
   - Once paid, the invoice is marked "Settled," profit is recognized under global accounting rules, and the Quote-to-Cash loop closes.
      
 
+---
+
 # GreenLake Supply Chain - > Traditional (Hardware buffer capacity vs Virtual online activation)
 
 <img width="712" height="494" alt="image" src="https://github.com/user-attachments/assets/dce317db-4639-49da-b5bd-631afc1fe431" />
 
+
 ---
-
-
-
-**Once a quote is approved and signed, the process transitions from the Sales domain into the Operations & Finance domain (often called the Order-to-Cash segment of Q2C).**
-
-
-
-
-
-### Who Takes Over After Quote Approval?
-
-- Deal Desk / Order Management: Validates the signed quote against original contract terms, converts the quote into a official Sales Order in the ERP, and validates customer credit/tax requirements.
-- Operations & Supply Chain (Fulfillment Team): Receives the Sales Order to allocate hardware inventory, schedule assembly/testing, and coordinate logistics/shipping.
-- Professional Services / Operations Team: Onboards deployment engineers to install hardware or activate cloud/software instances.
-
-<img width="3484" height="4708" alt="carbon (2)" src="https://github.com/user-attachments/assets/7531ba01-9c45-4506-b21a-f7ffebe01416" />
-
-
-
-    
 
 # DeepDive ( PHASE 1 - PHASE 4 )
 
@@ -108,7 +88,7 @@ The client pays via bank transfer. HPE’s Accounts Receivable teams use automat
 Once paid, the system marks the invoice as "Settled," recognizes the profit on HPE's balance sheets under global accounting rules, and officially closes the Quote-to-Cash loop.
 
 ------------------------------
-## 🛠️ Quick Tool Summary Cheat Sheet
+##  Quick Tool Summary Cheat Sheet
 
 | Process Step | The Tech Tool Used | What It Does in Simple Terms |
 |---|---|---|
@@ -120,3 +100,11 @@ Once paid, the system marks the invoice as "Settled," recognizes the profit on H
 | Invoicing & Cash | SAP Hybris / SAP FI | Sends the final bill and tracks the incoming bank payment. |
 
 
+
+## 👤 **Author**
+
+### **Shaik Mayeenuddin**
+
+#### Business Data Analytics & AI/ML | Supply Chain | Optimizing Processes for Revenue & Retention
+
+🔗https://www.linkedin.com/in/shaikmayeenuddin
