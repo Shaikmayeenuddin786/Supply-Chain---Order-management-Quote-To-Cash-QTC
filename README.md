@@ -1,149 +1,56 @@
 # Supply Chain & Order Management
 ## The End-to-End Quote-to-Cash Process and Technology Stack
 
-  [ 1. FRONT-END SALES & CONFIGURATION ]
-                   │
-                   ▼
-  ┌───────────────────────────────────────────┐
-  │        Opportunity Identification         │ ──► Logged in CRM (Salesforce)
-  └───────────────────────────────────────────┘
-                   │
-                   ▼
-  ┌───────────────────────────────────────────┐
-  │    Configure, Price, Quote (CPQ/NGQ)      │ ──► Complex hardware/software sizing 
-  └───────────────────────────────────────────┘     and pricing approval gates
-                   │
-                   ▼
-  ┌───────────────────────────────────────────┐
-  │     HPE Financial Services (HPEFS)        │ ──► Evaluates subscription terms or 
-  │            Credit Evaluation              │     consumption billing (GreenLake)
-  └───────────────────────────────────────────┘
-                   │
-                   ▼
-  [ 2. ORDER MANAGEMENT & EXECUTION ]
-                   │
-                   ▼
-  ┌───────────────────────────────────────────┐
-  │         Customer Acceptance               │ ──► Legal signing & contract finalization
-  └───────────────────────────────────────────┘
-                   │
-                   ▼
-  ┌───────────────────────────────────────────┐
-  │    Order Data Management (SAP S/4HANA)    │ ──► Quote converted to formal Sales Order;
-  └───────────────────────────────────────────┘     discrepancies validated by Q2C Analysts
-                   │
-                   ▼
-  [ 3. SUPPLY CHAIN & FULFILLMENT ]
-                   │
-                   ▼
-  ┌───────────────────────────────────────────┐
-  │       Factory Express Integration         │ ──► Custom system builds, testing, 
-  └───────────────────────────────────────────┘     and asset allocation in the factory
-                   │
-                   ▼
-  ┌───────────────────────────────────────────┐
-  │          Logistics & Delivery             │ ──► Hardware shipment & data center setup or
-  └───────────────────────────────────────────┘     digital provisioning for cloud units
-                   │
-                   ▼
-  [ 4. FINANCE & REVENUE REALIZATION ]
-                   │
-                   ▼
-  ┌───────────────────────────────────────────┐
-  │        Billing & Invoicing (Hybris)       │ ──► Upfront invoicing for hardware or 
-  └───────────────────────────────────────────┘     metered monthly usage bills
-                   │
-                   ▼
-  ┌───────────────────────────────────────────┐
-  │            Cash Application               │ ──► Payment collected via Accounts Receivable
-  └───────────────────────────────────────────┘     and applied against the ledger balance
-                   │
-                   ▼
-  ┌───────────────────────────────────────────┐
-  │          Revenue Recognition              │ ──► Realized under strict compliance rules
-  └───────────────────────────────────────────┘     (IFRS/GAAP) to conclude the cycle
 
 
-
-  # ========================================================================================
-  [ 1. FRONT-END SALES & CONFIGURATION ]
-  
-
-                 │
-                 ▼ 
-  # ┌───────────────────────────────────────────┐
-  │         Opportunity Identification        │ ──► Logged in CRM (Salesforce)
-  └───────────────────────────────────────────┘
-  │
-  ▼
-  ┌───────────────────────────────────────────┐
-  │     Configure, Price, Quote (CPQ/NGQ)     │ ──► Complex hardware/software sizing
-  └───────────────────────────────────────────┘     and pricing approval gates
-  │
-  ▼
-  ┌───────────────────────────────────────────┐
-  │      HPE Financial Services (HPEFS)       │ ──► Evaluates subscription terms or
-  │            Credit Evaluation              │     consumption billing (GreenLake)
-  └───────────────────────────────────────────┘
-  │
-  ▼
-  
-  # [ 2. ORDER MANAGEMENT & EXECUTION ]
-  
-  
-                 │
-                 ▼
-  
-  # ┌───────────────────────────────────────────┐
-  │            Customer Acceptance            │ ──► Legal signing & contract finalization
-  └───────────────────────────────────────────┘
-  │
-  ▼
-  ┌───────────────────────────────────────────┐
-  │    Order Data Management (SAP S/4HANA)    │ ──► Quote converted to formal Sales Order;
-  └───────────────────────────────────────────┘     discrepancies validated by Q2C Analysts
-  │
-  ▼
-  
-  # [ 3. SUPPLY CHAIN & FULFILLMENT ]
-                 │
-                 ▼
-  
-  # ┌───────────────────────────────────────────┐
-  │       Factory Express Integration         │ ──► Custom system builds, testing,
-  └───────────────────────────────────────────┘     and asset allocation in the factory
-  │
-  ▼
-  ┌───────────────────────────────────────────┐
-  │           Logistics & Delivery            │ ──► Hardware shipment & data center setup or
-  └───────────────────────────────────────────┘     digital provisioning for cloud units
-  │
-  ▼
-  
-  # [ 4. FINANCE & REVENUE REALIZATION ]
-                 │
-                 ▼
-  
-  ┌───────────────────────────────────────────┐
-  │        Billing & Invoicing (Hybris)       │ ──► Upfront invoicing for hardware or
-  └───────────────────────────────────────────┘     metered monthly usage bills
-  │
-  ▼
-  ┌───────────────────────────────────────────┐
-  │             Cash Application              │ ──► Payment collected via Accounts Receivable
-  └───────────────────────────────────────────┘     and applied against the ledger balance
-  │
-  ▼
-  ┌───────────────────────────────────────────┐
-  │            Revenue Recognition            │ ──► Realized under strict compliance rules
-  └───────────────────────────────────────────┘     (IFRS/GAAP) to conclude the cycle
-  
-  ```
-  ```
 
 ---
 
+<img width="768" height="768" alt="image" src="https://github.com/user-attachments/assets/ad84c0fd-9db9-44a1-8479-9bcb6262d473" />
+
+
+---
+# Opportunity/Prospect Flow ( PHASE 1 - PHASE 4 )
+
+<img width="3764" height="5312" alt="carbon" src="https://github.com/user-attachments/assets/fe69ca7e-4a3e-417b-92c3-4924a3b76a51" />
+
+## PHASE 1
+### **Quotation Generated** -> *Opportunity - A potential customer* ->  Logged in CRM (Salesforce) tool
+  - If quote is apprved , move it to the next phase (order management)
+  - If quote is declied/rejected , callback cust and provide discounts/offeres to retain the prospect in to the system
+
+## PHASE 2    
+### **Order Management** -> *Quote 2 Order* ->(SAP S/4HANA)
+  - Once prospect completes Legal signing & contract finalization . Quote is approved & moves to the OM phase
+  - credit chks ,discrepancies are validated and rectified (by Q2C Analyst) in Enterprise Resource planning tool (ERP) 
+  - Once passed - Quote is converted to Sales order
+
+## PHASE 3
+### **Fulfillment**  ->  *Order 2 Cash* --> *Factory - Logistics -> Delivery* -> SAP S/4HANA & HPE Order Status Tool (OST)
+  - In this phase we generate True ETA and not tentative ETA -( we do not want to disappoint  the cust by giving out tentative ETA which gonna change)
+  - Hardware Inventory is chkeced ,  Custom system is built, tested and shipped
+  - *SAP S/4HANA* assigns tracking number , customer tracks their shipment using *HPE Order Status Tool*
+
+## PHASE 4
+### **Invoicing & Cash** - *Finanace & Revenue (leaders love this part)*  -> *SAP Hybris & SAP FI-AR (Financial Accounting - Accounts Receivable)*
+  - Sends the final bill and tracks the incoming bank payment (SAP Hybris / SAP FI)
+  - Payment collected via Accounts Receivable against balance after product is delivered with no damages (SAP Cash Application (AI))
+  - Once paid, the invoice is marked "Settled," profit is recognized under global accounting rules, and the Quote-to-Cash loop closes.
+     
+
+# GreenLake Supply Chain - > Traditional (Hardware buffer capacity vs Virtual online activation)
+
+<img width="712" height="494" alt="image" src="https://github.com/user-attachments/assets/dce317db-4639-49da-b5bd-631afc1fe431" />
+
+---
+
+
+
 **Once a quote is approved and signed, the process transitions from the Sales domain into the Operations & Finance domain (often called the Order-to-Cash segment of Q2C).**
+
+
+
+
 
 ### Who Takes Over After Quote Approval?
 
@@ -153,13 +60,11 @@
 
 <img width="3484" height="4708" alt="carbon (2)" src="https://github.com/user-attachments/assets/7531ba01-9c45-4506-b21a-f7ffebe01416" />
 
-## Billing & Revenue Operations (Finance): Monitors delivery triggers to generate invoices, processes customer payments, and handles accounting/revenue recognition.
-
-* **Phase 1 (Order Entry):** The Sales team steps back, and **Order Management** verifies the agreement details.
-* **Phase 2 (Fulfillment):** **Supply Chain** ships the hardware while **Engineering/IT** activates software features or services.
-* **Phase 3 (Invoicing & Cash):** Once the customer receives the goods/services, **Finance** triggers the invoice, collects payment, and records the revenue.
 
 
+    
+
+# DeepDive ( PHASE 1 - PHASE 4 )
 
 ## 🟢 Phase 1: Creating & Approving the Quote
 
@@ -213,3 +118,5 @@ Once paid, the system marks the invoice as "Settled," recognizes the profit on H
 | Order & Inventory Brain | SAP S/4HANA (SD & MM Modules) | Generates the Sales ID and allocates warehouse parts. |
 | Custom Building | HPE Factory Express | Software blueprint used in the factory to assemble the tech. |
 | Invoicing & Cash | SAP Hybris / SAP FI | Sends the final bill and tracks the incoming bank payment. |
+
+
