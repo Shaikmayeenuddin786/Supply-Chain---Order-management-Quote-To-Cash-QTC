@@ -21,6 +21,12 @@
 * **Power BI & SQL:** Creates charts and tracks data to fix slow spots in the order process.
 * **Key Advantage:** Integrates front-end sales data directly with back-end finance systems, keeping customer information consistent across all teams.
 
+	• Data completeness 
+	• Data timeliness 
+	• Data accuracy 
+	• Data Conformity
+
+
 ---
 
 ### 3. What Happens Right After a Quote is Approved
@@ -54,5 +60,54 @@
 * **System Rules:** Logic rules inside the software stop people from choosing incompatible parts (like matching the wrong power supply to a server).
 * **Preventing Errors:** Built-in rules stop incorrect orders from ever reaching the factory, keeping deliveries fast and accurate.
 * **Key Advantage:** Guarantees 100% buildable custom systems right out of the software, eliminating factory rework and shipping returns.
+
+---
+
+# PUMORI
+
+I worked on a supply chain platform where I handled data flow monitoring, automation, and reporting across multiple systems. I automated workflows using Python and SQL, improved data quality, and supported real-time decision-making while working closely with business and product teams.
+
+__________________
+
+STRUCTURE**
+
+🔹 1. DATA COMING IN
+	• Factories send data (MD & TD) 
+	• Systems: SAP BTP, Ariba, IBP 
+
+🔹 2. DATA MONITORING (YOUR ROLE)
+You check:
+	• Data completeness 
+	• Data timeliness 
+	• Data accuracy 
+	• Data Conformity
+	
+
+🔹 3. ISSUE HANDLING
+	• Identify fallouts 
+	• Check logs 
+	• Do root cause analysis 
+	• Coordinate with factories 
+
+🔹 4. AUTOMATION (YOUR STRENGTH)
+	• Python automation scripts 
+	• SQL queries 
+	• ETL processes 
+Examples:
+	• OSM automation 
+	• PDM automation 
+	• Invoice correction 
+
+🔹 5. REPORTING
+	• Dashboards (OCCT, OSM, etc.) 
+	• Daily reports to business 
+
+🔹 6. BUSINESS IMPACT
+	• Faster processing 
+	• Reduced manual effort 
+	• Better decision-making 
+  • Revenue protection
+
+
 
 ```
