@@ -15,6 +15,30 @@
 ### **Quotation Generated** -> *Opportunity - A potential customer* ->  Logged in CRM (Salesforce) tool
   - If quote is apprved , move it to the next phase (order management)
   - If quote is declied/rejected , callback cust and provide discounts/offeres to retain the prospect in to the system
+    
+    #### **CPQ ENGINE (e.g., HPE NGQ / Salesforce CPQ)**
+      
+      - ##### **CONFIGURE :**
+          - User Selects compatible hardware, software and services from the catalog
+          - CPQ ensure configuration is valid
+          - CPQ also automatically suggest add on feature for a specific configuration product
+          - CPQ block if selection is not allowed and suggest alternative
+          - GOAL : This prevents sales reps from offering incompatible options, incorrect specifications, or unavailable features.
+          
+      - ##### **PRICE     :**
+          - HPE NGQ applies accurate volume discounts, promo pricing, and margin logic
+          - If a salesperson wants to offer an extra discount, CPQ ensures it follows approval limits
+          - If a deal requires custom pricing, it’s automatically routed for approval
+          - GOAL : CPQ automates this and eliminates the risk of underpricing, over-discounting, or offering inconsistent pricing across different sales channels.
+            
+      - ##### **QUOTE GENERATION   :**
+          - In Salesforce Desk approvals requested &  official PDF/e-Quote generated
+          - CPQ auto-fills everything , Sales reps don’t need to manually enter details
+          - quote is formatted according to company branding guidelines
+          - CPQ pulls legal terms and conditions into the document
+          - quote is generated in multiple formats (PDF, online proposal, interactive quote)      - 
+          - GOAL : CPQ ensures that each quote is customized to the customer’s specific needs
+    
 
 ## PHASE 2    
 ### **Order Management** -> *Quote 2 Order* ->(SAP S/4HANA)
