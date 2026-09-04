@@ -41,7 +41,7 @@
     
 
 ## PHASE 2    
-### **Order Management** -> *Quote 2 Order* ->(SAP S/4HANA)
+### **Order Management** -> *Quote 2 Order* -> ERP --> (SAP S/4HANA)
   - Once prospect completes Legal signing & contract finalization . Quote is approved & moves to the OM phase
   - credit chks ,discrepancies are validated and rectified (by Q2C Analyst) in Enterprise Resource planning tool (ERP) 
   - Once passed - Quote is converted to Sales order
