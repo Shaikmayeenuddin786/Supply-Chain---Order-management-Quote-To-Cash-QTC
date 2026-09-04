@@ -3,7 +3,7 @@
 
 <img width="768" height="768" alt="image" src="https://github.com/user-attachments/assets/ad84c0fd-9db9-44a1-8479-9bcb6262d473" />
 
-## ERP
+## ERP  = Intergration + Automation + Data Analysis
 ERP connects all business functions into one system, making operations faster, smarter, and more efficient—but implementation can be expensive and complex.
 
 ### Introduction to ERP
