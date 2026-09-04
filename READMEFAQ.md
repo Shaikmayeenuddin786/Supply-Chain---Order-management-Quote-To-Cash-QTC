@@ -57,6 +57,7 @@
 
 ### 6. What System "Configuration" Means
 * building a specific combination of custom products, services, and hardware that perfectly matches a client's needs
+ 	  
 * **Definition:** Combining individual computer parts, software licenses, and warranties into one complete, working product package.
 * **System Rules:** Logic rules inside the software stop people from choosing incompatible parts (like matching the wrong power supply to a server).
 * **Preventing Errors:** Built-in rules stop incorrect orders from ever reaching the factory, keeping deliveries fast and accurate.
